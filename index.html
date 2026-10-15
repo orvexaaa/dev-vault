@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevVault — Code Snippet Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DevVault</h1>
+    <p>Your personal code library.</p>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Cari snippet kode..."
+      >
+      <button id="addButton">+ Tambah Snippet</button>
+    </section>
+
+    <section id="snippetList">
+      <article class="snippet-card">
+        <h2>Halo Dunia</h2>
+        <p>Contoh snippet JavaScript pertama.</p>
+        <pre><code>console.log("Hello World!");</code></pre>
+        <button class="copy-button">Salin Kode</button>
+      </article>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
